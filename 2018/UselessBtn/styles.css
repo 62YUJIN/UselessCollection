@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: #7f8fa6;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+}
+
+h3 {
+    color: #ecf0f1;
+    text-align: center;
+}
+
+.uselessBtn {
+    position: absolute;
+    width: 150px;
+    height: 60px;
+    top: 40%;
+    border-radius: 5%;
+    background:#2c3e50;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 2px 25px #2c3e50;
+}
+
+.uselessBtn:active{
+    transform: scale(0.9);
+    background-color: darken(uselessBtn, 5%);
+    box-shadow: 0 2px 25px #2c3e50;
+}
+ 
